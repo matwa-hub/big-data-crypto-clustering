@@ -1,37 +1,36 @@
 # Analisis Perbandingan Return Kripto: Ethereum, Dogecoin, dan Litecoin
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<matwa-hub>/<big-data-crypto-clustering>/blob/main/notebooks/825230133_Matius.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matwa-hub/big-data-crypto-clustering/blob/main/notebooks/825230133_Matius.ipynb)
 
-**Author:** Matius Wahyu Abadi  
-**Project Type:** Ujian Big Data
-
----
-
-## 📌 Deskripsi singkat
-Proyek ini menganalisis **return harian** dari tiga kripto: **Ethereum (ETH)**, **Dogecoin (DOGE)**, dan **Litecoin (LTC)**. Analisis mencakup preprocessing data, perhitungan return, penerapan **K-Means Clustering** dan **Fuzzy C-Means Clustering**, visualisasi, dan evaluasi dengan metrik seperti *silhouette score*.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
-## 📂 File penting di repository
-- `report/UAS_825230133_Matius.pdf` — Laporan final (PDF).  
-- `data/Data_825230133_Matius.xlsx` — Dataset harga harian (Excel).  
-- `notebooks/825230133_Matius.ipynb` — Jupyter Notebook analisis (kode Python).
+## 📌 Deskripsi
+Proyek ini menganalisis **return harian tiga kripto**:  
+- **Ethereum (ETH)**  
+- **Dogecoin (DOGE)**  
+- **Litecoin (LTC)**  
+
+Menggunakan dua algoritma clustering:  
+- **K-Means Clustering**  
+- **Fuzzy C-Means Clustering**
+
+🎯 **Tujuan:** Membandingkan efektivitas kedua metode dalam mengelompokkan pola return kripto.  
+📊 **Insight praktis:** Perbedaan metode clustering menghasilkan interpretasi cluster yang berbeda, penting bagi investor & analis pasar.
 
 ---
 
-## 📊 Hasil ringkas
+## 📊 Hasil Utama
 | Metode              | Silhouette Score |
 |---------------------|------------------|
 | **K-Means**         | 0.6605 |
 | **Fuzzy C-Means**   | 0.3786 |
 
-Lihat `report/UAS_825230133_Matius.pdf` untuk pembahasan lengkap dan interpretasi hasil.
+📄 **Laporan lengkap tersedia di:** [`report/UAS_825230133_Matius.pdf`](report/UAS_825230133_Matius.pdf)
 
 ---
 
-## 🧭 Cara menggunakan dataset & notebook
-1. **Download repo** atau buka langsung notebook di Colab (klik badge di atas).  
-2. Jika menjalankan lokal:
-```bash
-pip install -r requirements.txt
-jupyter notebook notebooks/825230133_Matius.ipynb
+## 📂 Struktur Repository
