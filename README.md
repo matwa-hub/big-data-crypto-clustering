@@ -34,10 +34,10 @@ Menggunakan dua algoritma clustering:
 ---
 
 ## 📂 Struktur Repository
-data/ → Dataset harga kripto (Excel)
-notebooks/ → Jupyter notebook analisis
-report/ → Laporan PDF
-results/ → Gambar hasil (visualisasi & plot)
+- data/ → Dataset harga kripto (Excel)
+- notebooks/ → Jupyter notebook analisis
+- report/ → Laporan PDF
+- results/ → Gambar hasil (visualisasi & plot)
 
 ---
 
