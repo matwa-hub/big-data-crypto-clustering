@@ -74,10 +74,10 @@ Klik badge “Open in Colab” di bagian atas README.
    cd big-data-crypto-clustering
    
 2. **Buat environment & install dependensi:**
-   python -m venv venv
-   source venv/bin/activate    # Linux / macOS
-   # venv\Scripts\activate     # Windows
-   pip install -r requirements.txt
+   - python -m venv venv
+   - source venv/bin/activate    # Linux / macOS
+   - # venv\Scripts\activate     # Windows
+   - pip install -r requirements.txt
 
 3. **Jalankan Jupyter Notebook:**
-   jupyter notebook notebooks/825230133_Matius.ipynb
+   - jupyter notebook notebooks/825230133_Matius.ipynb
