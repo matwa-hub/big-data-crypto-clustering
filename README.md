@@ -72,3 +72,12 @@ Klik badge “Open in Colab” di bagian atas README.
    ```bash
    git clone https://github.com/matwa-hub/big-data-crypto-clustering.git
    cd big-data-crypto-clustering
+   
+2. Buat environment & install dependensi:
+   python -m venv venv
+   source venv/bin/activate    # Linux / macOS
+   # venv\Scripts\activate     # Windows
+   pip install -r requirements.txt
+
+3. Jalankan Jupyter Notebook:
+   jupyter notebook notebooks/825230133_Matius.ipynb
