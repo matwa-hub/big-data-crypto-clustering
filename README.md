@@ -34,3 +34,41 @@ Menggunakan dua algoritma clustering:
 ---
 
 ## 📂 Struktur Repository
+data/ → Dataset harga kripto (Excel)
+notebooks/ → Jupyter notebook analisis
+report/ → Laporan PDF
+results/ → Gambar hasil (visualisasi & plot)
+
+---
+
+## 💡 Skills Highlight
+- Data Wrangling dengan **Pandas**
+- Visualisasi dengan **Matplotlib & Seaborn**
+- Clustering dengan **Scikit-Learn** & **Scikit-Fuzzy**
+- Evaluasi model menggunakan **Silhouette Score**
+- Reproducible workflow dengan **Jupyter Notebook**
+
+---
+
+## 📈 Visualisasi Hasil
+
+### 🔹 Perbandingan Return Harian (ETH, DOGE, LTC)
+![Perbandingan Return](results/returns_comparison.png)
+
+### 🔹 Perbandingan Harga Kripto (ETH, DOGE, LTC)
+![Perbandingan Harga](results/price_comparison.png)
+
+### 🔹 Korelasi Return (Heatmap)
+![Korelasi Return](results/returns_correlation.png)
+
+---
+
+## 🚀 Cara Menjalankan Notebook
+### 🔹 Opsi 1: Langsung di Google Colab
+Klik badge “Open in Colab” di bagian atas README.
+
+### 🔹 Opsi 2: Jalankan Lokal
+1. **Clone repo:**
+   ```bash
+   git clone https://github.com/matwa-hub/big-data-crypto-clustering.git
+   cd big-data-crypto-clustering
